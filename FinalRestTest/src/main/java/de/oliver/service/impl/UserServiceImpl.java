@@ -30,7 +30,7 @@ public class UserServiceImpl implements UserService {
 		List<User> users = userRepository.findAll();
 		return users;
 	}
-
+	
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
 	public User getUser(Long userID) {
