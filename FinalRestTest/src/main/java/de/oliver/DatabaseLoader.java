@@ -26,6 +26,9 @@ public class DatabaseLoader {
 	
 	private void loadUsers() {
 		userRepository.save(new User("User 1", "test123"));	
+		userRepository.save(new User("User 2", "test123"));
+		userRepository.save(new User("User 3", "test123"));
+		userRepository.save(new User("User 4", "test123"));
 	}
 	
 	private void loadRoles() {
